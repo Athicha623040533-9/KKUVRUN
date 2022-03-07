@@ -5,13 +5,10 @@ class RunPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home'),
-      ),
-      body: const Center(
+    return const Scaffold(
+      body: Center(
         child: Text(
-          'test1',
+          'test3',
           style: TextStyle(fontSize: 60),
         ),
       ),
